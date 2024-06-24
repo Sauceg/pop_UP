@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "scary";
+    src: url("Hellscourt\ Personal\ Use\ Only.ttf");
+}
+html{
+    background-image: url("scary2.avif");
+    background-size:cover ;
+    background-repeat:no-repeat;
+    background-color: black;
+    background-attachment: fixed;
+    color:white;
+    font-family: scary;
+
+}
+.button{
+    width: 200px;
+    height: 65px;
+    background-color: rgba(255,255,255,.2);
+    border-radius: 15px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    border:2px white solid
+}
+body{
+    position: relative;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+body{
+    height: 100vh;
+}
+p{
+    font-size: 2em;
+    letter-spacing: 3px;
+}
